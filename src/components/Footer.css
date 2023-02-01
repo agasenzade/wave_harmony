@@ -1,0 +1,145 @@
+.footer-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  background-color: #f8f8f8;
+  height: 110px;
+  margin-top: 121px;
+}
+
+.email-desc p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group input {
+  width: 360px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 15px;
+  padding-left: 16px;
+}
+
+.form-group .alert-button {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+  border-radius: 15px;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+.swal-footer {
+  text-align: center;
+}
+
+.swal-button {
+  background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+  border-radius: 15px;
+}
+
+.footer-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-title p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.footer-link1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links-list ul li a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #444444;
+  text-decoration: none;
+}
+.footer-links-list2 {
+  padding-top: 53px;
+}
+.footer-links-list2 ul li a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #444444;
+  text-decoration: none;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-contact-title p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+.footer-contact-mail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact-mail a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #444444;
+  text-decoration: none;
+}
+
+.footer-menu li {
+  list-style-type: none;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-description {
+  width: 235px;
+}
+.footer-description p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #848484;
+}

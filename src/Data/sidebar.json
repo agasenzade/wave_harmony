@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Swimwear",
+        "childrens": [
+            {
+                "title": "All"
+                
+            },
+            {
+                "title": "Surf"
+                
+            },
+            {
+                "title": "One-piece"
+               
+                
+            },
+            {
+                "title": "Sleeves"
+                
+            },
+            {
+                "title": "Without sleeves"
+              
+                
+            },
+            {
+                "title": "With shorts"
+                
+                
+            },
+            {
+                "title": "For pregnant"
+                
+                
+            },
+            {
+                "title": "Sunscreen"
+                
+                
+            }
+            
+        ]
+    },
+
+    {
+        "title": "NEW COLLECTION"
+     
+    },
+    {
+        "title": "OVERALLS"
+
+    },
+    {
+        "title": "COSMETICS"
+    },
+    {
+        "title": "Sale up to -40%",
+        "path": "/Sale up to -40%"
+    }
+
+
+]

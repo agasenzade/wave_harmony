@@ -1,0 +1,295 @@
+.contact-container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.contact-switch{
+    margin-top: 86px;
+    margin-bottom: 80px;
+}
+.contact-switch p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.contact-information-card-phone {
+  width: 450px;
+  height: 298px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 60px;
+}
+
+.contact-information-head{
+    margin-bottom: 50px;
+}
+
+.contact-information-head h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.contact-information-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-information-card-title p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 22px;
+  line-height: 120%;
+  color: #2c2c2c;
+}
+.contact-phone p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+
+.contact-information-card-mail {
+  width: 450px;
+  height: 298px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 60px;
+}
+.contact-information-title h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  color: #2c2c2c;
+
+  padding-bottom: 10px;
+}
+.contact-information-title p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+.contact-information-title2 h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  color: #2c2c2c;
+
+  padding-bottom: 10px;
+}
+.contact-information-title2 p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+
+.contact-information-card-requisites {
+  width: 450px;
+  height: 298px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+
+.contact-information-card-requisites h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #2c2c2c;
+  padding-bottom: 15px;
+}
+
+.contact-information-card-requisites p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+
+.contact-information-card-requisites button{
+    background: linear-gradient(90deg, #21A5B5 0%, #71B2B4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+
+
+/* partner-section */
+
+
+.partner-content{
+  margin-top: 80px;
+
+}
+.partner-head{
+  margin-bottom: 50px;
+}
+
+.partner-head h3{
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 140%;
+color: #2C2C2C;
+}
+
+.partner-cards{display: flex;
+justify-content: center;
+gap: 30px;}
+
+.partner-card{
+  width: 687px;
+height: 471px;
+border: 1px solid #F0F0F0;
+border-radius: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+padding-left: 30px;
+}
+
+.partner-card-title h3{
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 22px;
+line-height: 120%;
+color: #2C2C2C;
+margin-bottom: 10px;
+
+}
+.partner-card-address{
+  margin-bottom: 25px;
+}
+.partner-card-address p{
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+color: #444444;
+
+}
+.partner-hours{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.partner-hours h4{
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 140%;
+color: #444444;
+}
+.partner-hours p {
+  font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 20px;
+line-height: 140%;
+color: #444444;
+}
+
+.partner-telephone{
+  display: flex;
+}
+.partner-telephone h4{
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+.partner-telephone a {
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 140%;
+  color:  #21A5B5;
+  text-decoration: none
+
+}
+
+.partner-site{
+  display: flex;
+  margin-top: 10px;
+}
+
+.partner-site h4{
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+.partner-site a{
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 140%;
+  color:  #21A5B5;
+  text-decoration: none
+}
+
+/* .partner-card-img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.partner-card-img img{
+  width: 310px;
+  height: 170px;
+  object-fit: cover;
+} */

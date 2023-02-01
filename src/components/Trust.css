@@ -1,0 +1,164 @@
+.trust{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.trust-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 230px;
+  margin-bottom: 60px;
+}
+
+
+.trust-header h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 44px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.trust-header button {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+
+  border: 1px solid #21a5b5;
+}
+
+.trust-header button:hover {
+  background: linear-gradient(90deg, #28bfd1 0%, #85cfd1 100%);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-text-fill-color: #fff;
+  border: 1px solid #21a5b5;
+}
+
+.trust-container{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.trust-right-card {
+  width: 536px;
+  height: 510px;
+  background: #fff;
+  border: 1px solid #21a5b5;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 144px 121px 144px 105px;
+  gap: 10px;
+}
+.trust-right-card .trust-right-name p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 25px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+.trust-mail a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 140%;
+  text-decoration: none;
+  list-style-type: none;
+  background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.trust-mail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.trust-mail p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 140%;
+  color: #848484;
+}
+.right-card-desc p {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.right-card-footer {
+  margin-top: 15px;
+}
+.right-card-footer a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  text-decoration-line: underline;
+  background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.right-card-footer .left-ahref {
+  padding-right: 20px;
+}
+
+.swiper-container {
+  
+  display: flex;
+  gap: 20px;
+}
+
+.swiper-container .my-swiper-trust-thumbnail {
+  width: 150px !important;
+}
+.swiper-container .my-swiper-trust-thumbnail .swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  overflow-y: auto;
+  width: 178px;
+  height: 510px;
+  transform: none !important;
+}
+
+
+.swiper-container .my-swiper-trust-thumbnail .swiper-wrapper .swiper-slide {
+  width: 150px !important;
+  height: 140px;
+}
+.swiper-container .my-swiper-trust-thumbnail .swiper-wrapper .swiper-slide img {
+  width: 150px !important;
+  height: 140px !important;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+
+.swiper-container .my-swiper-trust {
+  width: 100%;
+}
+
+.swiper-container .my-swiper-trust .swiper-wrapper {
+  display: flex;
+}
+
+

@@ -1,0 +1,38 @@
+button {
+  width: 156px;
+  height: 49px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  border-radius: 15px;
+}
+
+.hero-button.filled {
+  background: linear-gradient(90deg, #28bfd1 0%, #85cfd1 100%);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #fff;
+}
+
+.hero-button.stroke {
+  background: none;
+  color: #21a5b5;
+  border: 1px solid #21a5b5;
+}
+.hero-button.random {
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.hero-button.filled:hover,
+.hero-button.stroke:hover,
+.hero-button.random:hover {
+  background: linear-gradient(90deg, #28bfd1 0%, #85cfd1 100%);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-text-fill-color: #fff;
+  border: 1px solid #21a5b5;
+}

@@ -1,0 +1,107 @@
+.product-section {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.product-cart-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.product-card-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 44px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+.product-card-subtitle {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #444444;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.product-card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 25px;
+}
+
+.content .product-name {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.content .product-price {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+.content .product-model {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2c2c2c;
+}
+
+.content .product-size {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  position: relative;
+}
+
+.product-card .content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content button {
+  display: block;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 100%;
+  background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+  -webkit-text-fill-color: #fff;
+  border: 1px solid #21a5b5;
+  visibility: visible;
+}
+
+.home-container .swiper-backface-hidden .swiper-slide {
+  display: flex;
+}

@@ -1,0 +1,32 @@
+.product-card .img-container {
+  width: 335px;
+  height: 502px;
+  background: #f8f8f8;
+}
+
+.product-card .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-icon {
+  position: relative;
+}
+
+.img-icon svg {
+  position: absolute;
+  font-size: 26px;
+  bottom: 466px;
+  left: 146px;
+  width: 100%;
+}
+svg:hover {
+  color: red;
+}
+
+.product-card-buy {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}

@@ -1,0 +1,137 @@
+.trust-item-section{
+    margin: 0 auto;
+  }
+  .trust-item-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 230px;
+    margin-bottom: 60px;
+  }
+  
+  
+  .trust-item-header h3 {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 44px;
+    line-height: 140%;
+    color: #2c2c2c;
+  }
+  
+  .trust-item-header button {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 100%;
+    background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #21a5b5;
+  }
+  
+  .trust-item-header button:hover {
+    background: linear-gradient(90deg, #28bfd1 0%, #85cfd1 100%);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    -webkit-text-fill-color: #fff;
+    border: 1px solid #21a5b5;
+  }
+  
+  .trust-item-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .trust-item-left-card {
+    width: 100%;
+    height: 510px;
+  }
+  .trust-item-left-card img {
+    width: 100%;
+    height: 510px;
+    border-radius: 80px;
+    object-fit: cover;
+  }
+  
+  .trust-item-right-card {
+    width: 536px;
+    height: 510px;
+    background: #fff;
+    border: 1px solid #21a5b5;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 144px 121px 144px 105px;
+    gap: 10px;
+    
+  }
+
+ 
+
+  .trust-item-right-card .trust-item-right-name p {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 140%;
+    color: #2c2c2c;
+  }
+  .trust-item-mail a {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    text-decoration: none;
+    list-style-type: none;
+    background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .trust-item-mail {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .trust-item-mail p {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 140%;
+    color: #848484;
+  }
+  .right-item-card-desc p {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2c2c2c;
+  }
+  
+  .right-item-card-footer {
+    margin-top: 15px;
+  }
+  .right-item-card-footer a {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    background: linear-gradient(90deg, #21a5b5 0%, #71b2b4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .right-item-card-footer .left-ahref {
+    padding-right: 20px;
+  }
+  

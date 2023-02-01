@@ -1,0 +1,50 @@
+
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+.sidebar-title span{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 140%;
+text-transform: uppercase;
+color: #2C2C2C;
+
+}
+
+.sidebar-content .sidebar-item span{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 140%;
+color: #2C2C2C;
+}
+
+.sidebar-title .toggle-btn{
+    cursor: pointer;
+    transition: transform .3s;
+}
+ 
+
+
+.sidebar-item{
+    padding-top: 16px;
+}
+.sidebar-item.open.sidebar-title .toggle-btn{
+    transform: rotate(180deg);
+}
+
+.sidebar-content{
+    padding-top: .25em ;
+    height: 0;
+    overflow: hidden;
+}
+
+.sidebar-item.open .sidebar-content{
+    height: auto;
+}

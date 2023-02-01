@@ -1,0 +1,130 @@
+.product-basket-container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.product-basket-head{
+    margin: 60px 0 35px 197px;
+}
+
+.product-basket-container .product-basket-head h3{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 140%;
+    color: #2C2C2C;
+}
+
+.product-basket-table{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.product-basket-table .product-basket-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.product-basket-right-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.product-basket-right{
+width: 400px;
+height: 290px;
+background-color: #F8F8F8;
+border-radius: 20px;
+padding: 25px 40px;
+margin-bottom: 20px;
+
+}
+
+.product-basket-right .basket-right-title h3{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 28px;
+line-height: 140%;
+color: #2C2C2C;
+padding-bottom: 20px;
+}
+
+.product-basket-right .basket-right-sum{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.product-basket-right .basket-right-sum h5{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #2C2C2C;
+
+}
+
+.product-basket-right .basket-right-sum p{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 140%;
+color: #2C2C2C;
+}
+.product-basket-right button{
+    width: 320px;
+    height: 53px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #28BFD1;
+   background: #28BFD1;
+    color: #28BFD1;
+}
+
+.basket-right-card-subs{
+    padding-top: 15px;
+}
+
+.basket-right-card-subs p{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+text-align: center;
+color: #444444;
+}
+.basket-right-promo button{
+    width: 400px;
+    height: 53px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #21A5B5;
+    border-radius: 15px;
+    border: 1px solid #28BFD1;
+   background: #F8F8F8;
+    color: #28BFD1;
+}
+.basket-right-promo input{
+    width: 168px;
+    padding: 10px;
+    height: 52px;
+    border: 1px solid #71B2B4;
+    border-radius: 15px;
+}

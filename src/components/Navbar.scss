@@ -1,0 +1,139 @@
+.navbar {
+  .navbar-logo {
+    text-align: center;
+  }
+  .navbar-container {
+    .nav-menu {
+      width: 100%;
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      .nav-item {
+        .nav-links {
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 130%;
+          text-decoration: none;
+          color: #2b2a28;
+        }
+
+        .nav-links:hover {
+          background: #ffecc8;
+        }
+        span {
+          width: 6px;
+          height: 6px;
+          position: absolute;
+          border-radius: 3px;
+        }
+        input {
+          border: 3px solid #21a5b5;
+          outline: none;
+          background-color: #fff;
+          height: 100%;
+          padding: 0 10px;
+          font-size: 20px;
+          width: 200px;
+        }
+      }
+      li.active {
+        background-color: #ffecc8;
+      }
+
+      .nav-sale {
+        a {
+          font-family: "Futura PT";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 130%;
+          text-decoration: none;
+          color: #f93c00;
+        }
+      }
+    }
+
+    #nav-icon {
+      width: 60px;
+      height: 45px;
+      position: relative;
+      margin: 50px auto;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+
+      span {
+        display: block;
+        position: absolute;
+        height: 9px;
+        width: 100%;
+        background: #d3531a;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+        transition: 0.25s ease-in-out;
+      }
+      span:nth-child(1) {
+        top: 0px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+      }
+      span:nth-child(2) {
+        top: 18px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+      }
+      span:nth-child(3) {
+        top: 36px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+      }
+      .nav-icon.open span:nth-child(1) {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: -3px;
+        left: 8px;
+      }
+      #nav-icon.open span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+      }
+      #nav-icon.open span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 39px;
+        left: 8px;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+  }
+}
